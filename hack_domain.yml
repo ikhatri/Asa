@@ -1,0 +1,27 @@
+slots:
+
+intents:
+ - greet
+ - goodbye
+ - help
+ - wifi
+
+entities:
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_wifi:
+    - 'To connect to the wireless network, please use the SSID and PASSWORD'
+  utter_help:
+    - 'You can ask me for many things, for example how to connect to the wifi'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_wifi
+ - utter_help

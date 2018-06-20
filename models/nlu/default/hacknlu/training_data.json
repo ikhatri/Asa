@@ -1,0 +1,64 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "what can you help me with?"
+      },
+      {
+        "intent": "help",
+        "text": "how do I use this?"
+      },
+      {
+        "intent": "wifi",
+        "text": "What's the wifi password?"
+      },
+      {
+        "intent": "wifi",
+        "text": "How do I connect to the wireless?"
+      },
+      {
+        "intent": "wifi",
+        "text": "Help me connect to the internet"
+      },
+      {
+        "intent": "wifi",
+        "text": "wifi password"
+      },
+      {
+        "intent": "wifi",
+        "text": "I can't connect to the internet"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
