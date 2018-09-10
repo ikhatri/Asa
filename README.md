@@ -1,6 +1,10 @@
-# hackathon-helpbot
+# Asa
+![redpanda](redpanda.png)
 
 A simple slackbot that uses [Rasa NLU](https://github.com/RasaHQ/rasa_nlu) and [Rasa Core](https://github.com/RasaHQ/rasa_core) to respond to common queries that participants might have at a hackathon. Intended to be an easily extensible solution for hackathon organizers to customize for their events.
+
+## Why the name Asa?
+Asa was originally created for [HackUMass](https://www.hackumass.com) whose unofficial mascot is the [Red Panda](https://en.wikipedia.org/wiki/Red_panda). Asa is the name of a female Red Panda who currently lives at the [Smithsonian's national zoo](https://nationalzoo.si.edu/animals/red-panda).
 
 ## Installation & Local Set Up (Windows)
 
