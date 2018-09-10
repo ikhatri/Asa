@@ -1,12 +1,22 @@
 slots:
+  event:
+    type: text
 
 intents:
  - greet
  - goodbye
  - help
  - wifi
+ - event_location
+ - event_time
+ - schedule
+ - prize_list
+ - judging_rubric
+ - project_submission
+ - joke
 
 entities:
+  - event
 
 templates:
   utter_greet:
@@ -18,10 +28,30 @@ templates:
     - 'To connect to the wireless network, please use the SSID and PASSWORD'
   utter_help:
     - 'You can ask me for many things, for example how to connect to the wifi'
-
+  utter_schedule:
+    - 'You can access the schedule at https://dashboard.hackumass.com/events'
+  utter_event_time:
+    - 'Look up {event} time using dashboard API and provide it here'
+  utter_event_location:
+    - 'Look up {event} location using dashboard API and provide it here'
+  utter_joke:
+    - 'Write a bad joke here'
+  utter_judging_rubric:
+    - 'Judging rubric here'
+  utter_prize_list:
+    - 'Prizes you can win here'
+  utter_project_submission:
+    - 'Submit your project by following the instructions at https://dashboard.hackumass.com/projects/submit'
 
 actions:
  - utter_greet
  - utter_goodbye
  - utter_wifi
  - utter_help
+ - utter_schedule
+ - utter_event_time
+ - utter_event_location
+ - utter_joke
+ - utter_judging_rubric
+ - utter_prize_list
+ - utter_project_submission

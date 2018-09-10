@@ -70,6 +70,312 @@
         "text": "I can't connect to the internet",
         "intent": "wifi",
         "entities": []
+      },
+      {
+        "text": "What can you do?",
+        "intent": "help",
+        "entities": []
+      },
+      {
+        "text": "How do I connect my raspberry pi to the wireless network",
+        "intent": "wifi",
+        "entities": []
+      },
+      {
+        "text": "how do I submit my project?",
+        "intent": "project_submission",
+        "entities": []
+      },
+      {
+        "text": "Where do I submit my project for judging?",
+        "intent": "project_submission",
+        "entities": []
+      },
+      {
+        "text": "are there instructions for submitting my project",
+        "intent": "project_submission",
+        "entities": []
+      },
+      {
+        "text": "I'm done with my project, what should I do next?",
+        "intent": "project_submission",
+        "entities": []
+      },
+      {
+        "text": "tell me a joke",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "make me laugh",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "tell me something funny",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "what's your favorite joke?",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "should i use eduroam during the hackathon?",
+        "intent": "wifi",
+        "entities": []
+      },
+      {
+        "text": "eduroam isn't working for me",
+        "intent": "wifi",
+        "entities": []
+      },
+      {
+        "text": "what are the judging criteria?",
+        "intent": "judging_rubric",
+        "entities": []
+      },
+      {
+        "text": "how will my project be judged?",
+        "intent": "judging_rubric",
+        "entities": []
+      },
+      {
+        "text": "what's the rubric for scoring my project?",
+        "intent": "judging_rubric",
+        "entities": []
+      },
+      {
+        "text": "can you tell me about the prizes available",
+        "intent": "prize_list",
+        "entities": []
+      },
+      {
+        "text": "what are the prizes I can apply for?",
+        "intent": "prize_list",
+        "entities": []
+      },
+      {
+        "text": "what prizes can I win?",
+        "intent": "prize_list",
+        "entities": []
+      },
+      {
+        "text": "what are the competitions that I can get prizes for?",
+        "intent": "prize_list",
+        "entities": []
+      },
+      {
+        "text": "project submission instructions",
+        "intent": "project_submission",
+        "entities": []
+      },
+      {
+        "text": "is there a devpost for hackumass?",
+        "intent": "project_submission",
+        "entities": []
+      },
+      {
+        "text": "what wireless network should I use?",
+        "intent": "wifi",
+        "entities": []
+      },
+      {
+        "text": "what time is dinner?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "dinner",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "when is the opening ceremony?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "opening ceremony",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "when is judging?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "judging",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "what time is the soldering workshop?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 17,
+            "end": 35,
+            "value": "soldering workshop",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "where is dinner?",
+        "intent": "event_location",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "dinner",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "where should I go for judging?",
+        "intent": "event_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "judging",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "when should I submit my project?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "submit",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "which room is the Verizon workshop in?",
+        "intent": "event_location",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Verizon workshop",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "what time is the Optum talk?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "Optum talk",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "could you tell me when lunch is please?",
+        "intent": "event_time",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "lunch",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "please tell me where I can get lunch?",
+        "intent": "event_location",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "lunch",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "where is Optum's talk?",
+        "intent": "event_location",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "Optum's talk",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "please tell me what room to go to for the Liberty Mutual workshop",
+        "intent": "event_location",
+        "entities": [
+          {
+            "start": 42,
+            "end": 65,
+            "value": "Liberty Mutual workshop",
+            "entity": "event"
+          }
+        ]
+      },
+      {
+        "text": "Bye!",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "cya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the schedule for HackUMass?",
+        "intent": "schedule",
+        "entities": []
+      },
+      {
+        "text": "tell me the schedule",
+        "intent": "schedule",
+        "entities": []
+      },
+      {
+        "text": "where can I find the schedule?",
+        "intent": "schedule",
+        "entities": []
+      },
+      {
+        "text": "full schedule",
+        "intent": "schedule",
+        "entities": []
+      },
+      {
+        "text": "event schedule",
+        "intent": "schedule",
+        "entities": []
+      },
+      {
+        "text": "what is the full event schedule?",
+        "intent": "schedule",
+        "entities": []
       }
     ]
   }

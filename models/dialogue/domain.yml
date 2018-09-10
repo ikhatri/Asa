@@ -1,0 +1,69 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_wifi
+- utter_help
+- utter_schedule
+- utter_event_time
+- utter_event_location
+- utter_joke
+- utter_judging_rubric
+- utter_prize_list
+- utter_project_submission
+config:
+  store_entities_as_slots: true
+entities:
+- event
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- help:
+    use_entities: true
+- wifi:
+    use_entities: true
+- event_location:
+    use_entities: true
+- event_time:
+    use_entities: true
+- schedule:
+    use_entities: true
+- prize_list:
+    use_entities: true
+- judging_rubric:
+    use_entities: true
+- project_submission:
+    use_entities: true
+- joke:
+    use_entities: true
+slots:
+  event:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_event_location:
+  - text: Look up {event} location using dashboard API and provide it here
+  utter_event_time:
+  - text: Look up {event} time using dashboard API and provide it here
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+  utter_help:
+  - text: You can ask me for many things, for example how to connect to the wifi
+  utter_joke:
+  - text: Write a bad joke here
+  utter_judging_rubric:
+  - text: Judging rubric here
+  utter_prize_list:
+  - text: Prizes you can win here
+  utter_project_submission:
+  - text: Submit your project by following the instructions at https://dashboard.hackumass.com/projects/submit
+  utter_schedule:
+  - text: You can access the schedule at https://dashboard.hackumass.com/events
+  utter_wifi:
+  - text: To connect to the wireless network, please use the SSID and PASSWORD

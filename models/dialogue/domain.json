@@ -1,0 +1,31 @@
+{
+  "states": [
+    "intent_event_location",
+    "intent_event_time",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_help",
+    "intent_joke",
+    "intent_judging_rubric",
+    "intent_prize_list",
+    "intent_project_submission",
+    "intent_schedule",
+    "intent_wifi",
+    "entity_event",
+    "slot_event_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_wifi",
+    "prev_utter_help",
+    "prev_utter_schedule",
+    "prev_utter_event_time",
+    "prev_utter_event_location",
+    "prev_utter_joke",
+    "prev_utter_judging_rubric",
+    "prev_utter_prize_list",
+    "prev_utter_project_submission"
+  ]
+}
