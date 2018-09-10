@@ -25,6 +25,14 @@ A simple slackbot that uses [Rasa NLU](https://github.com/RasaHQ/rasa_nlu) and [
     * `sudo python -m spacy download en_core_web_md`
     * `sudo python -m spacy link en_core_web_md en`
 
+## Notes on using it
+You have to create a local file called `api_config.json` with the following contents:
+```json
+{
+    "slack_token": "Your 'Bot User OAuth Access Token' from the OAuth & Permissions tab in slack"
+}
+```
+
 # Contributing
 
 Cupcake ipsum dolor sit amet icing tiramisu marzipan donut. Sweet croissant sesame snaps sesame snaps oat cake wafer. Danish croissant toffee chocolate cake marshmallow toffee.
