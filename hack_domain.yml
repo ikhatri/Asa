@@ -28,6 +28,10 @@ templates:
     - 'To connect to the wireless network, please use the SSID and PASSWORD'
   utter_help:
     - 'You can ask me for many things, for example how to connect to the wifi'
+  utter_whoami:
+    - "My name is Asa! I'm your personal hackathon assistant built by the HackUMass team."
+    - "I'm Asa the Red Panda! Here to answer all your questions."
+    - "I'm a chatbot called Asa, check out my source here: https://github.com/ikhatri/Asa"
   utter_schedule:
     - 'You can access the schedule at https://dashboard.hackumass.com/events'
   utter_event_time:

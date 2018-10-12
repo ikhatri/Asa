@@ -376,6 +376,26 @@
         "text": "what is the full event schedule?",
         "intent": "schedule",
         "entities": []
+      },
+      {
+        "text": "who are you?",
+        "intent": "who_u",
+        "entities": []
+      },
+      {
+        "text": "what are you?",
+        "intent": "who_u",
+        "entities": []
+      },
+      {
+        "text": "Why are you called Asa?",
+        "intent": "who_u",
+        "entities": []
+      },
+      {
+        "text": "what's your name?",
+        "intent": "who_u",
+        "entities": []
       }
     ]
   }
